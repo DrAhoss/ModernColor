@@ -1,0 +1,38 @@
+{
+    "author": "Dr. Ahoss",
+    "dependencies": {},
+    "keywords": [],
+    "name": "modern-colors",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Modern Colors",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/ModernColor",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_BITMAP_MODERNCOLOR",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "249f3efe-10ed-401b-b5fd-feadf4acbf1a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
